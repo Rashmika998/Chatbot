@@ -1,0 +1,183 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "Welcome"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "I want to buy some items from your shop",
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell many items such as vegetables, fruits, meat, snacks, etc. You can tell me the goods you want to buy one by one. I'll give you the shelf number of it.",
+          "We have many items. I'll give you the shelf numbers for goods you want to buy once you tell me the order one by one."
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "fruits",
+        "patterns": [
+          "Apple",
+          "Orange",
+          "Water melon",
+          "Guava",
+          "Grapes",
+          "Mango",
+          "Strawberry",
+          "Avocado",
+          "Pineapple"
+        ],
+        "responses": [
+          "All the fruits are in shelf number 1.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "vegetables",
+        "patterns": [
+          "Vegetables",
+          "Carrot",
+          "Pumpkin",
+          "Beans",
+          "Brinjal",
+          "Cabbage",
+          "Potato",
+          "Lettuce",
+          "Bell pepper",
+          "Tomato",
+          "Cucumber"
+        ],
+        "responses": [
+          "All the vegetables are in shelf number 2.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "meat",
+        "patterns": [
+          "Meat",
+          "Chicken",
+          "Mutton",
+          "Sausages"
+        ],
+        "responses": [
+            "All the meat are in shelf number 3.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "fish",
+        "patterns": [
+          "Fish",
+          "Prones",
+          "Cuttle fish"
+        ],
+        "responses": [
+            "All the sea-food items are in shelf number 4.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "bakery",
+        "patterns": [
+          "Bread",
+          "Wheat"
+        ],
+        "responses": [
+            "All the bakery items are in shelf number 5.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "snacks",
+        "patterns": [
+          "Biscuits",
+          "Chocolates"
+        ],
+        "responses": [
+            "All the snacks items are in shelf number 6.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "drinks",
+        "patterns": [
+          "Soft drinks",
+          "Milo",
+          "Kothmale",
+          "Mixed fruit drink"
+        ],
+        "responses": [
+            "All the drinks items are in shelf number 7.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "desserts",
+        "patterns": [
+          "Ice cream",
+          "Chocolate Biscuit pudding",
+          "Curd",
+          "Yogurt"
+        ],
+        "responses": [
+            "All the dessert items are in shelf number 8.\n What else do you want to buy?"
+        ]
+      },
+      {
+        "tag": "finish",
+        "patterns": [
+          "That's all",
+          "I have finished ordering"
+        ],
+        "responses": [
+            "Okay nice to meet you. Have a good day"
+        ]
+      },
+       {
+        "tag": "medicine",
+        "patterns": [
+          "Medicine"
+        ],
+        "responses": [
+            "Sorry we are not selling medicine at the moment.\n What else do you want to buy?"
+        ]
+      }
+    ]
+  }
